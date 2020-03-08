@@ -1,13 +1,17 @@
+
 body {
   font-family: 'Montserrat', Sans Serif;
-  color: #B5B5B5;
-  background-image: url(https://i.imgsafe.org/d5/d53511e960.jpeg);
+  color: lightgrey;
+  background-image: url(https://i.ibb.co/tHgxPX1/background.jpg);
   background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+}
+h1 {
+    color: lightgrey;
 }
 .bg-2 {
       background: #2d2d30;
@@ -31,7 +35,6 @@ body {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: ;
 }
 
 .social .link {
@@ -105,7 +108,7 @@ body {
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity:;   
+    opacity: 100%;   
 }
 
 /* Add a gray color to all navbar links */
