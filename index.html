@@ -1,1 +1,155 @@
-Hello World
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+<!--Scrollspy-->
+
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--end Scrollspy-->
+    <nav class="navbar navbar-inverse navbar-fixed-top shadow">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <!--collapse toggle-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar"
+                    aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--Brand-->
+                <a class="navbar-brand" href="#mypage"><img class="img-responsive brand img-rounded" alt="brand"
+                        src="https://i.imgsafe.org/d5/d5403b24c2.png"></a>
+            </div>
+            <!--end brand-->
+            <!-- tabs-->
+            <div class="collapse navbar-collapse text-right" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#about"><strong> ABOUT</strong></a></li>
+                    <li><a href="#portfolio"><span class="glyphicon glyphicon-screenshot"></span><strong>
+                                PORTFOLIO</strong></a></li>
+                    <li><a href="#contact"><span class="glyphicon glyphicon-sunglasses"></span><strong>
+                                CONTACT</strong></a></li>
+                </ul>
+            </div>
+            <!--end tabs-->
+        </div>
+        <!--end header-->
+        </div>
+        <!--end container fluid-->
+    </nav>
+
+    <!--top-->
+    <div id="top" class="container text-center">
+        <br><br><br><br><br><br><br><br>
+        <h1>FRONT END DEVELOPER <br>WITH A NACK FOR MARKETING</h1>
+        <br><br>
+
+        <div class="social container">
+            <a href="https://www.linkedin.com/in/tanneracord
+" class="link linkedin" target="_blank"><span class="fa fa-linkedin"></span></a>
+            <a href="https://codepen.io/shibbybro/" class="link codepen" target="_blank"><span
+                    class="fa fa-codepen"></span></a>
+            <a href="https://github.com/ShibbyBro" class="link github" target="_blank"><span
+                    class="fa fa fa-github"></span></a>
+            <a href="https://twitter.com/TannerAcord" class="link twitter" target="_blank"><span
+                    class="fa fa-twitter"></span></a>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <!--end top-->
+
+    <!--about me-->
+    <div id="about" class="container text-center bg-1">
+        <h1 class="slideanim">WHO IS THIS GUY?</h1> <br><br>
+        <div class="row">
+            <div class="col-xs-6"> <br><br><br><br>
+                <h3 class="slideanim">Over 10 years of Real World experience on a National level with Sales and
+                    Marketing in the Key Account, Digital, Channel and Field within the CPG, Entertainment and Sports
+                    Industries. </h3>
+            </div>
+            <div class="col-xs-6">
+                <img class="img-rounded center-block img-responsive img1" width="400"
+                    src="https://i.imgsafe.org/d5/d58c1ba9ec.png">
+            </div>
+        </div>
+    </div>
+    <!--end about me-->
+
+    <!--Portfolio Examples-->
+    <div id="portfolio" class="container bg-2">
+        <div class="row text-center ">
+            <h1 class="slideanim">PORTFOLIO</h1>
+            <br>
+            <div class="col-md-4">
+                <div class="thumbnail slideanim port-pic">
+                    <img src="http://i.imgsafe.org/ac1883f87b.png" alt="Tribute page">
+                    <p><strong>Tribute Page</strong></p>
+                    <p><em>Texas A&M</em></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail slideanim port-pic">
+                    <img src="http://i.imgsafe.org/d9e009f0ad.png" alt="Placeholder1">
+                    <p><strong>Coming Soon</strong></p>
+                    <p><em>Place Holder</em></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail slideanim port-pic">
+                    <img src="http://i.imgsafe.org/d9e009f0ad.png" alt="PLaceholder2">
+                    <p><strong>Coming Soon</strong></p>
+                    <p><em>Placeholder</em></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail slideanim port-pic">
+                    <img src="http://i.imgsafe.org/d9e009f0ad.png" alt="PLaceholder3">
+                    <p><strong>Coming Soon</strong></p>
+                    <p><em>Placeholder</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End port Ex-->
+
+    <!--Contact-->
+    <div id="contact" class="container">
+        <h3 class="text-center slideanim">Contact</h3>
+        <p class="text-center slideanim"><em>Gimme them Digits</em></p>
+        <div class="row test">
+            <div class="col-md-4">
+                <p class="slideanim">Do it... Just Do it</p>
+                <p class="slideanim"><span class="glyphicon glyphicon-map-marker"></span>Orange County, CA</p>
+                <p class="slideanim"><span class="glyphicon glyphicon-phone"></span>Phone: (949)903-2938</p>
+                <p class="slideanim"><span class="glyphicon glyphicon-envelope"></span>Email: tanneracord@gmail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn btn-primary pull-right" type="submit">Send It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Contact-->
+
+    <footer class="text-center">
+        <a class="up-arrow" href="#mypage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Website Made on Plenty of <span class="glyphicon glyphicon-glass"></span> By Yours Truly: <strong>Tanner
+                Acord <span class="glyphicon glyphicon-piggy-bank"></span></strong><img
+                src="https://i.imgsafe.org/d5/d5a036f7e9.png" width="125" height="50"></p>
+    </footer>
+
