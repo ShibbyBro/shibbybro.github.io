@@ -10,24 +10,27 @@ body {
     -o-background-size: cover;
     background-size: cover; 
 }
+
 .bg-2 {
       background: #2d2d30;
       color: #bdbdbd;
 }
+
 .bg-1 {
   background: #3A0000;
   color: lightgrey;
 }
+
 .brand {
-  width: 200px;
-  margin: -10px;
-  padding-left: 10px;
-  
+  width: 150px;
+  margin: -10px; 
 }
+
 .maroon-color {
   background-color: #3A0000;
   color: grey;
 }
+
 .social {
   width: 100%;
   top: 50%;
