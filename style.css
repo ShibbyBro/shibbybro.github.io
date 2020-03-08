@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Montserrat', Sans Serif;
-  color: lightgrey;
+  color: lightgrey !important;
   background-image: url(https://i.ibb.co/tHgxPX1/background.jpg);
   background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,16 +10,13 @@ body {
     -o-background-size: cover;
     background-size: cover; 
 }
-h1 {
-    color: lightgrey;
-}
 .bg-2 {
       background: #2d2d30;
       color: #bdbdbd;
 }
 .bg-1 {
   background: #3A0000;
-  color: #969696;
+  color: lightgrey;
 }
 .brand {
   width: 200px;
@@ -91,9 +88,7 @@ h1 {
   background-color: #C28A4A;
   color: white;
 }
-.img1 {
-  -webkit-transform: rotate(180deg);
-}
+
 .container {
     padding: 80px 50px;
 }
@@ -104,7 +99,7 @@ h1 {
 .navbar {
     font-family: 'Montserrat', Sans Serif;
     margin-bottom: 0;
-    background-color: #3A0000;
+    background-color: #3A0000 !important;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
