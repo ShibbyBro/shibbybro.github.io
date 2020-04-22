@@ -29,6 +29,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'Facial_Recog.png',
+    title: 'Facial Recognition Brain',
+    info:
+      'React App that uses a Facial Recognition API to verify faces in the pictures that you upload.',
+    info2: 'Place a link from anywhere on the internet that includes people (or Not) and it will find a person\'s face if there is one.',
+    url: 'facialrecogbrain.netlify.app',
+    repo: 'https://github.com/ShibbyBro/facerecognitionbrain', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'RoboFriends.png',
     title: 'RoboFriends',
     info:
