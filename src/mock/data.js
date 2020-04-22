@@ -34,7 +34,7 @@ export const projectsData = [
     info:
       'React App that uses a Facial Recognition API to verify faces in the pictures that you upload.',
     info2: 'Place a link from anywhere on the internet that includes people (or Not) and it will find a person\'s face if there is one.',
-    url: 'facialrecogbrain.netlify.app',
+    url: 'https://facialrecogbrain.netlify.app',
     repo: 'https://github.com/ShibbyBro/facerecognitionbrain', // if no repo, the button will not show up
   },
   {
