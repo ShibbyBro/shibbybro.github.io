@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'Facial_Recog.png',
-    title: 'Facial Recognition Brain',
+    title: 'Facial Recognition Brain UNDER CONSTRUCTION',
     info:
       'React App that uses a Facial Recognition API to verify faces in the pictures that you upload.',
     info2: 'Place a link from anywhere on the internet that includes people (or Not) and it will find a person\'s face if there is one.',
@@ -53,7 +53,7 @@ export const projectsData = [
     title: 'Background Generator',
     info: 'I needed background colors so I made a generator to do that.',
     info2: "A small project that helps getting some cool looking color combo's for backgrounds.",
-    url: 'https://github.com/ShibbyBro/background-generator',
+    url: 'https://shibbybro.github.io/background-generator/',
     repo: 'https://github.com/ShibbyBro/background-generator', // if no repo, the button will not show up
   },
   {
