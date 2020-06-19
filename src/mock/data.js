@@ -30,11 +30,11 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'Facial_Recog.png',
-    title: 'Facial Recognition Brain UNDER CONSTRUCTION',
+    title: 'Facial Recognition Brain',
     info:
-      'React App that uses a Facial Recognition API to verify faces in the pictures that you upload.',
+      'React App that uses a Clarifai API to verify faces in the pictures that you upload.',
     info2: 'Place a link from anywhere on the internet that includes people (or Not) and it will find a person\'s face if there is one.',
-    url: 'https://facialrecogbrain.netlify.app',
+    url: 'https://smart-face-brain-app.herokuapp.com/',
     repo: 'https://github.com/ShibbyBro/facerecognitionbrain', // if no repo, the button will not show up
   },
   {
